@@ -51,7 +51,6 @@ Last iteration
 | [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) | 0.800226 | 0.647375 |
 
 And the winner was the XGB Regressor, and the feature importances were:  
-[this](resources/html/final.html)
 ![XGBFinal](resources/img/XGBFinal.png)
 
 
