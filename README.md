@@ -33,8 +33,9 @@ Before starting the ML part, we also erased some columns (ID, BGG Rank...) since
 
 ### Final Thoughts
 -------------
-After the initial trainings, the first models showed that the XGB Regressor, RandomForestRegressor or DecissionTreeRegressor were the ones with the highest scores. That's why we decided to explore more parameters within those regressors.    
-Initial iteration  
+After the initial trainings, the first models showed that the XGB Regressor, RandomForestRegressor or DecissionTreeRegressor were the ones with the highest scores. That's why we decided to explore more parameters within those regressors.  
+
+**Initial iteration**  
 | Model | R2 Score |
 | ------------- |-------------:|
 | [XGB Regressor](https://xgboost.readthedocs.io/en/stable/parameter.html) | 0.857179 |
@@ -43,7 +44,8 @@ Initial iteration
 | [Decision Tree](https://scikit-learn.org/stable/auto_examples/tree/plot_tree_regression.html) | 0.391220 |
 
 While training the models, the feature importances showed that the Bayesian average and interaction with the game (visits to the board game page, comments about them, adding them to their wishlists...) helped greatly when trying to predict their rating. The last iteration shows that some models improved more than others, but in the end, the ranking stays the same. Please, note that the scoring is with the train data. When trying to predict new data, the scoring lowered a little bit but stayed constant.   
-Last iteration  
+
+**Last iteration**  
 | Model | R2 Score | R2 Score with new data |
 | :--- | :---: | ---:|
 | [XGB Regressor](https://xgboost.readthedocs.io/en/stable/parameter.html) | 0.899273 | 0.889522 |
