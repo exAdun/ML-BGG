@@ -31,7 +31,7 @@ Getting rid of the NaN values were the utmost priority. Since there was only a f
 
 ### Machine Learning
 -------------
-We iterated with the models such as [Linear](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html), [Polynomial](https://towardsdatascience.com/polynomial-regression-with-scikit-learn-what-you-should-know-bed9d3296f2), RandomForest, XGB Regressor, [BayesRidge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html) or [KNN](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html).  
+This is a small sample of models we worked with: [Linear](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html), [Polynomial](https://towardsdatascience.com/polynomial-regression-with-scikit-learn-what-you-should-know-bed9d3296f2), RandomForest, XGB Regressor, [BayesRidge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html) or [KNN](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html).  
 
 ### Results of the training
 -------------  
