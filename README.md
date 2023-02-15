@@ -1,6 +1,6 @@
 # ML BGG
 ## Machine Learning Project with BoardGames
-![head](resources/img/head.png)  
+![head](src/resources/img/head.png)  
 
 
 ### Table of Contents  
@@ -21,9 +21,9 @@ The objective of the project is to try to predict the average rating of boardgam
 The dataset was pretty clean and we had a comfortable number of columns to investigate. Initially, we had a dataset with 15909 rows and 33 columns. In the early stages of the project, we used dummies for all the categorical columns and it raised the number of columns to 200, so we discarded the idea.  
 
 We can observe in the images below that dices and resource management maintain their positions as the most popular type of games. The second picture is a heatmap of the variables in the dataset.  
-![mechanics](resources/img/mechanicslong.png)
+![mechanics](src/resources/img/mechanicslong.png)
 
-![heatmap](resources/img/heatmap.png)
+![heatmap](src/resources/img/heatmap.png)
 
 ### Feature Engineering
 -------------
@@ -47,7 +47,7 @@ While training the models, the feature importances showed that the Bayesian aver
 ### Final Thoughts
 -------------
 The winner was the XGB Regressor, and the feature importances were:  
-![XGBFinal](resources/img/XGBFinal.png)
+![XGBFinal](src/resources/img/XGBFinal.png)
 
 The project was very revealing and we can see the bright possibilities for the board game industry in the near future. Even though the model is not very good with newer games with few interactions(number of players wishlisting the game, talking about the game in social media, etc.), it's robust when given enough data with a high probability of making the correct prediction.  
 
